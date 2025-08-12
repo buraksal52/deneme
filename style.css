@@ -1,0 +1,303 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    color: #5B5B5B;
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 83px;
+    height: 83px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 22px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5B5B5B;
+    font-size: 22px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+
+.user-profile span {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.user-profile i {
+    margin-left: 10px;
+    color: #000000;
+}
+
+/* Main Content */
+main {
+    padding: 0 120px;
+}
+
+.welcome {
+    margin-top: 50px;
+}
+
+.welcome h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #252641;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.course-card {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 18.83px 47.08px rgba(47, 50, 125, 0.1);
+    padding: 20px;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.course-card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #252641;
+    margin-top: 20px;
+}
+
+.instructor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.instructor img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.instructor span {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.progress {
+    width: 100%;
+    height: 8px;
+    background-color: #D9D9D9;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #49BBBD;
+    border-radius: 2px;
+}
+
+.course-card > span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+}
+
+.view-history {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #49BBBD;
+    text-decoration: none;
+}
+
+.recommended {
+    margin-top: 100px;
+}
+
+.recommended h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.see-all {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    color: #49BBBD;
+    text-decoration: none;
+}
+
+.categories {
+    margin-top: 100px;
+}
+
+.categories h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.coaching {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #252641;
+    padding: 100px;
+    border-radius: 37px;
+}
+
+.coaching h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.coaching p {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.start-learning {
+    display: inline-block;
+    background-color: #49BBBD;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #252641;
+    color: #B2B3CF;
+    padding: 100px 120px;
+    margin-top: 100px;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe h3 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.subscribe form {
+    margin-top: 20px;
+}
+
+.subscribe input {
+    width: 400px;
+    height: 60px;
+    border-radius: 80px;
+    border: 1px solid #83839A;
+    background-color: transparent;
+    padding: 0 30px;
+    font-size: 20px;
+    color: #83839A;
+}
+
+.subscribe button {
+    width: 179px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #49BBBD;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    margin-left: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer-links .logo h2 {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.footer-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 0 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #B2B3CF;
+    font-size: 22px;
+}
+
+.footer-links p {
+    font-size: 22px;
+}
